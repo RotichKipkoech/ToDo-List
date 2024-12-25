@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 40px; }
+input, button { padding: 8px; margin: 5px; font-size: 16px; }
+ul { list-style-type: none; padding: 0; }
+li { display: flex; align-items: center; margin-bottom: 10px; }
+li.completed { text-decoration: line-through; color: grey; }
+button { cursor: pointer; margin-left: 10px; }
