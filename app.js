@@ -12,6 +12,7 @@ function createTaskElement(taskText, taskIndex) {
   const span = document.createElement('span');
   span.textContent = taskText;
 
+  // Mark Button
   const markBtn = document.createElement('button');
   markBtn.textContent = '✓';
   markBtn.onclick = () => toggleTaskCompletion(taskIndex);
